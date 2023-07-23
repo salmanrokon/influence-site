@@ -42,5 +42,44 @@ main{
     width: 1440px;
     margin: 0 auto;
 }
+
+.btn-primary{
+    padding: 10px 24px;
+    gap: 8px;
+    border-radius: 41px;
+    background: #E02C6D;
+    border: none;
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 700;
+}
+.journy-heading{
+    color: #3A3A3A;
+    font-size: 52px;
+    font-weight: 700;
+    line-height: 70px;
+    width: 582px;
+    height: 133px;
+}
+.journy-text{
+    width: 505px;
+    height: 60.9px;
+    flex-shrink: 0;
+    color: #3A3A3A;
+    font-size: 16px;
+    font-weight: 600;
+}
+.journy-container{
+    display: flex;
+    justify-content: space-between;
+}
+.overlay{
+    position: relative;
+    top: -451px;
+}
+.cirle-img{
+    width: 475px;
+    height: 475px;
+}
 /* main section style end*/
 
